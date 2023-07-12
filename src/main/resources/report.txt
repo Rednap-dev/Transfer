@@ -1,0 +1,3 @@
+(1.json) Success -> 5,000000 dollars sent from Card(ID=0000-0002, amount=229.432) to Card(ID=0000-0001, amount=128.321)
+(2.json) Success -> 6,500000 dollars sent from Card(ID=0000-0001, amount=121.821) to Card(ID=0000-0002, amount=235.932)
+(2.json) Error -> Amount cannot be negative [-5,000000]
