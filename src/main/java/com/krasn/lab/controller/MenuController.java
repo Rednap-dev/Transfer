@@ -46,8 +46,8 @@ public class MenuController {
         switch (option) {
             case 1:
                 OutputController.clear();
-                CardHolder.load("C:\\Users\\trane\\OneDrive\\Рабочий стол\\Java\\lab\\src\\main\\resources");
-                TransactionFactory.load("C:\\Users\\trane\\OneDrive\\Рабочий стол\\Java\\lab\\src\\main\\resources\\input").stream()
+                CardHolder.load("src/main/resources");
+                TransactionFactory.load("src/main/resources/input").stream()
                         .forEach(e -> e.forEach(Transaction::perform));
                 OutputController.saveReport();
                 break;

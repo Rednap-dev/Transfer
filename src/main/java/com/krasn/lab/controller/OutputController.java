@@ -27,7 +27,7 @@ public class OutputController {
     }
 
     public static void saveReport() {
-        FilesController.writeToFile("C:\\Users\\trane\\OneDrive\\Рабочий стол\\Java\\lab\\src\\main\\resources\\report.txt", getFullReport());
+        FilesController.writeToFile("src/main/resources/report.txt", getFullReport());
     }
 
     public static String getFullReport() {
